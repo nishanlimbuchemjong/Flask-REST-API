@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Flask instance and logs
+instance/
+*.log
+
+# Environment variables and secrets
+.env*
+*.env
+config.py
+config/*.pyc
+
+# Database files
+*.sqlite3
+*.db
+migrations/
+
+# Cache and session data
+.cache/
+sessions/
+
+# Pytest and coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
